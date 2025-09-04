@@ -1,0 +1,61 @@
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 0.3s ease;
+  }
+.pdf-upload-section h3{
+  text-align: center;
+}
+
+.csv-upload-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.custom-upload-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.custom-upload-button:hover {
+  background-color: #005580;
+}
+
+.custom-upload-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.processing-message {
+  color: #4caf50;
+  font-size: 0.9em;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+}
+
+.pdf-upload-section input {
+  display: none;
+}

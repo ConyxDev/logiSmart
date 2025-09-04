@@ -1,0 +1,105 @@
+
+.dossiers-navigation {
+background-color: #f8f9fa;
+display: flex;
+justify-content: space-between;
+}
+.dossiers-navigation h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'lato';
+  margin: 0 0 0 10px;
+  color: #333333;
+}
+.dossiersPage {
+    padding: 20px;
+  }
+  
+  .dossiers-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dossiers-filters {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .dossiers-filters input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20%;
+  }
+.dossiers-filters select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+  }
+  .checkboxes {
+    width: 100%;
+  }
+  .checkboxes input {
+    width: 10%;
+  }
+  .patient-item {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .patient-item p{
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .patient-item strong {
+    color: #0056b3;
+  }
+  .patient-item p.label {
+
+  }
+  .patient-item:hover {
+    background-color: #ccc;
+  }
+  
+  .info-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  #addPatientBtn {
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } 
+  #addPatientBtn:hover {
+    background-color: #0056b3;
+}
+
+#lastName {
+width: 200px;
+}
+
+#firstName{
+width: 200px;
+}
+#birthDate{
+width: 150px;
+}
+#phone{
+width: 140px;
+} 
+#email{
+width: 300px;
+}

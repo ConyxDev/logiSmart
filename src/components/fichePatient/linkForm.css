@@ -1,0 +1,9 @@
+.googleFormContainer{
+    margin-bottom: 0;
+    display: block;
+    text-align: start;
+}
+.googleFormMainContainer h2{
+    text-align: start;
+    font-size: 12px;
+}

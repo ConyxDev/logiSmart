@@ -1,0 +1,141 @@
+.unique-todo-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  width: 80%;
+}
+
+
+#toDoListTitle {
+  margin: 0 0 0 10px;
+  text-transform: uppercase;
+}
+.unique-todo-title {
+  font-size: 1.5em;
+  color: #006699;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.unique-patient-search {
+  margin-bottom: 20px;
+}
+
+.unique-patient-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.unique-patient-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.unique-patient-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.unique-patient-item:hover {
+  background-color: #eaf4fe;
+}
+
+.unique-patient-info {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.unique-task-form {
+  margin-bottom: 20px;
+}
+
+.unique-task-input,
+.unique-task-date-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.unique-add-task-button {
+  background-color: #006699;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.unique-add-task-button:hover {
+  background-color: #005580;
+}
+
+.unique-task-list-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.unique-task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.unique-task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.unique-task-item:last-child {
+  border-bottom: none;
+}
+
+.unique-task-completed {
+  background-color: #e0ffe0;
+}
+
+.unique-task-details p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.unique-delete-task-button {
+  background-color: #d9534f;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.unique-delete-task-button:hover {
+  background-color: #c9302c;
+}

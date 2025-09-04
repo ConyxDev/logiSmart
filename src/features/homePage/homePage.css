@@ -1,0 +1,246 @@
+.headerDash {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #069 0%, #0070A3 20%, #007AAE 40%, #0084B8 60%, #008EC2 80%, #09C 100%);
+    padding: 5px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: #ffffff;
+  }
+  .headerDash h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'lato';
+  }
+  .headerDash h2 {
+    font-family: 'lato';
+    font-size: 1em;
+    font-weight: normal;
+  }
+  .headerDash img {
+    width: 30px;
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 20px;
+    height: auto;
+  }
+.dashboard img {
+    width: 30px;
+  }
+  .dashboard h2 {
+    margin: 0;
+    font-size: 1em;
+    font-family: 'lato';
+  }
+
+.dashboard h2 {
+    margin: 0;
+    font-size: 1em;
+    font-family: 'lato';
+    text-align: center;
+
+  }
+.dashboard-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+.dashboard-header h1 {
+    margin: 0;
+    font-size: 1em;
+    font-family: 'lato';
+  }
+.dashboard-left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+.dailyappoint {
+    margin-bottom: 10px;
+    justify-content: center;
+    height: 21vw;
+
+}
+.dashboard-right {
+        width: 39%;
+        display: flex;
+        flex-direction: column;
+}
+.stats {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+.admin-stats {
+    width: 50%;
+    justify-content: center;
+}
+.admin-statsContent {
+    width: 100%;
+    margin: 0 0 0 10px;
+
+}
+.admin-statsContainer  {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 5px;
+}
+.daily-stats {
+  width: 50%;
+  justify-content: center;
+}
+
+.daily-statsContainer {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.daily-statsContent {
+  width: 100%;
+  margin: 0 0 0 10px;
+}
+.daily-statsContent p {
+  width: 100%;
+
+}
+.daily-stats img {
+
+    width: 40px;
+
+}
+.todo-list {
+
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    height: 30vw;
+}
+.todo-listContainer {
+    display: flex;
+    flex-direction: column;
+    height: 21vw;
+    margin-bottom: 10px;
+}
+
+.patientSearch {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: center;
+    height: 154px;
+}
+.patientSearch input {
+    width: 50%;
+    align-self: center;
+    text-align: center;
+
+}
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.googleFormMainContainer {
+  width: 100%;
+  text-align: center;
+}
+.quickToolContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+.quickToolContent {
+      gap: 10px;
+      display: flex;  
+      flex-wrap: wrap;
+      justify-content: center;
+      
+}
+.divider {
+    width: 45%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.monthly-statsContainer {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.monthly-statsContent {
+  width: 100%;
+  margin: 0 0 0 10px;
+}
+.monthly-stats img{
+  width: 40px;
+    
+
+}
+.monthly-stats {
+  height: 238px
+}
+  section {
+    background: #f9f9f9;
+    border: 1px solid #0099cc;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  section h2 {
+    margin: 0 0 10px 0;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .logoutIcon {
+    color: #006699;
+    cursor: pointer;
+  }
+  .logoutBtn {
+    background-color: #006699;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .dashboard button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #006699;
+    color: white;
+    margin-left: 20px;
+  }
+
+  button:hover {
+    background-color: #004466;
+}

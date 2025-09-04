@@ -1,0 +1,141 @@
+.patient-search-container {
+  margin-bottom: 20px;
+}
+#agendaTitle {
+  margin: 0 0 0 10px;
+  text-transform: uppercase;
+}
+.patient-search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.patient-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.patient-list-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.patient-list-item:hover {
+  background-color: #eaf4fe;
+}
+
+/* Informations du patient */
+.patient-info-container {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}
+
+/* Formulaire de calendrier */
+.calendar-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.calendar-input,
+.calendar-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.calendar-textarea {
+  resize: none;
+  height: 80px;
+}
+
+/* Boutons */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  background-color: #006699;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005580;
+}
+
+.cancel-button {
+  background-color: #ccc;
+}
+
+.cancel-button:hover {
+  background-color: #bbb;
+}
+
+
+/* .appointment-list {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 10px 0;
+  max-height: 500px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}  */
+.appointment-list table {
+  width: 100%;
+}
+
+.appointment-list-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
+
+.appointment-list-item:last-child {
+  border-bottom: none;
+}
+
+.delete-button {
+  background-color: #d9534f;
+  width: 100px;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c9302c;
+}
+
+.tableContainer {
+  width: 150px;
+}

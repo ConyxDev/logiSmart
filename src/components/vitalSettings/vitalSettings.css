@@ -1,0 +1,101 @@
+.vitals-container {
+    display: flex;
+    gap: 20px;
+    background: #f9f9f9;
+    margin-top: 20px;
+
+
+    border-radius: 8px;
+}
+
+.vitals-form {
+    width: 40%;
+}
+
+.vitals-list {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #0099cc;
+    border-radius: 8px;
+    background: #ffffff;
+    overflow-y: auto; /* Permet le défilement si nécessaire */
+}
+
+.vitals-list h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #006699;
+    text-align: center;
+    font-family: 'lato';
+}
+
+.vital-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #006699;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #f9f9f9;
+
+}
+
+.vital-item p {
+    margin: 5px 0;
+    color: #333333;
+    font-family: 'lato';
+}
+
+.vitals-form button {
+    background-color: #006699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'lato';
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.vitals-form button:hover {
+    background-color: #004466;
+}
+
+
+.delete-confirmation-modal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.delete-confirmation-modal button {
+    background-color: #006699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'lato';
+    font-size: 1em;
+    transition: 0.3s;
+    justify-content: center;
+}
+
+.vital-item button {
+    background-color: #006699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'lato';
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.delete-confirmation-content{
+    margin-bottom: 20px;
+    max-width: 530px;
+    height: 150px;
+}

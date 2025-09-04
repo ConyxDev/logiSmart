@@ -1,0 +1,17 @@
+/* Conteneur principal du bouton */
+.topButton {
+    position: fixed;
+    bottom: 110px; /* Distance du bas */
+    right: 20px; /* Distance du côté droit */
+    z-index: 1000;
+  }
+  
+  /* SVG stylisé */
+  .scrollIcon {
+    transition: transform 0.5s ease;
+  }
+  
+  /* Effet au survol pour l'icône */
+  .scrollIcon:hover {
+    transform: rotate(360deg); /* Rotation de l'icône */
+  }

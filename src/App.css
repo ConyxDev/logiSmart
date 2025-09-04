@@ -1,0 +1,263 @@
+
+/******************BODY****************/
+@font-face {
+  font-family: 'Poppins_semibold';
+  src: url(./style/fonts/Poppins-SemiBold.eot) format('eot'),
+       url(./style/fonts/Poppins-SemiBold.ttf) format('ttf'),
+       url(./style/fonts/Poppins-SemiBold.woff) format('woff'),
+       url(./style/fonts/Poppins-SemiBold.wof2) format('woff2');           
+}
+@font-face {
+  font-family: 'Poppins_regular';
+  src: url(./style/fonts/Poppins-Regular.eot) format('eot'),
+       url(./style/fonts/Poppins-Regular.ttf) format('ttf'),
+       url(./style/fonts/Poppins-Regular.woff) format('woff'),
+       url(./style/fonts/Poppins-Regular.woff2) format('woff2');           
+}
+@font-face {
+  font-family: 'Poppins_light';
+  src: url(./style/fonts/Poppins-Light.eot) format('eot'),
+       url(./style/fonts/Poppins-Light.ttf) format('ttf'),
+       url(./style/fonts/Poppins-Light.woff) format('woff'),
+       url(./style/fonts/Poppins-Light.woff2) format('woff2');           
+}
+@font-face {
+  font-family: 'Lato';
+  src: url(./style/fonts/Lato-Regular.eot) format('eot'),
+       url(./style/fonts/Lato-Regular.ttf) format('ttf'),
+       url(./style/fonts/Lato-Regular.woff) format('woff'),
+       url(./style/fonts/Lato-Regular.woff2) format('woff2');           
+}
+@font-face {
+  font-family: 'Dancing_script';
+  src: url(./style/fonts/DancingScript-Medium.eot)format('eot'),
+      url(./style/fonts/DancingScript-Medium.ttf) format('ttf'),
+      url(./style/fonts/DancingScript-Medium.woff) format('woff'),
+      url(./style/fonts/DancingScript-Medium.woff2) format('woff2');
+}
+
+
+
+#root {
+  max-width: 1900px;
+  margin: 0;
+  height: 100%;
+}
+#App {
+  font-family: 'lato';
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6, textarea {
+  font-style: normal;
+}
+h1{
+  font-size: 2.667em;
+  letter-spacing: 6.68px;
+  text-transform: uppercase;
+  font-family: 'Poppins_semibold';
+  margin: 0;
+}
+h2{
+  font-size: 1.333em;
+  font-family: 'Poppins_Light';
+  margin: 0;
+  letter-spacing: 2px;
+}
+h3 {
+  font-size: 1.333em;
+  font-family: 'Poppins_Light';
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-family: 'Poppins_Light';
+  font-size: 1.333em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+nav ul a {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Poppins_regular';
+}
+
+p, textarea, li {
+  font-family: lato;
+  color: #333333;
+  font-size: 14px;
+}
+/******************END OF BODY****************/
+
+
+/******************HEADER START****************/
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #069 0%, #0070A3 20%, #007AAE 40%, #0084B8 60%, #008EC2 80%, #09C 100%);
+  padding: 10px 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: #ffffff;
+}
+.header img {
+  width: 50px;
+}
+
+.headerName {
+  width: 50%;;
+}
+.headerName h2 {
+  font-family: 'lato';
+  font-weight: normal;
+}
+
+.header h1 {
+  text-transform: none;
+}
+
+#softwareVersion {
+  width: 50%;
+  text-align: right;
+  color: #ffffff;
+  width: 50%;
+  justify-content: flex-end;
+}
+#softwareVersion p {
+  color: #ffffff;
+
+}
+
+/*****************HEADER END****************/
+
+
+/*****************FOOTER START************/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, #069 0%, #0070A3 20%, #007AAE 40%, #0084B8 60%, #008EC2 80%, #09C 100%);
+  padding: 20px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  
+}
+
+.footerName {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#copyright {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  justify-content: center;
+}
+
+
+.footer p {
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/*****************LOGIN*****************/
+
+.loginPage {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  height: fit-content;
+  background-color: #f9f9f9;
+}
+
+
+.loginPageContainer {
+  width: 40%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #0099CC; /* Couleur de la bordure */
+  border-radius: 8px;
+  text-align: center;
+  background-color: #ffffff; /* Couleur de fond */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Style du titre */
+.loginPageContainer h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'lato';
+}
+
+/* Groupes de champs */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.input-group input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Conteneur pour les liens */
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+/* Liens oubliés */
+.forgot-links a {
+  text-decoration: none;
+  color: #0099CC;
+  padding: 10px;
+}
+
+.forgot-links a:hover {
+  text-decoration: underline;
+}
+
+/* Bouton de connexion */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #0099CC;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #0078A0;
+}
+
+/********************END OF LOGIN*****************/

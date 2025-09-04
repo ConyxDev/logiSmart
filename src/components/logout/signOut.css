@@ -1,0 +1,10 @@
+    .logoutIcon {
+    width: 30px; /* Taille de l'icône */
+    height: 30px; /* Taille de l'icône */
+    fill: #0099cc; /* Couleur de l'icône */
+    transition: fill 0.2s ease, transform 0.2s ease; /* Transition fluide pour les interactions */
+  }
+  .logoutIcon:hover {
+    fill: #cc0000; /* Couleur de survol */
+    transform: rotate(15deg); /* Petit effet de rotation */
+  }

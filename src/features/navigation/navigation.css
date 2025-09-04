@@ -1,0 +1,32 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #006699;
+    padding: 5px 0;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .navigation a:hover {
+    background-color: #0078A0;
+    color: #FFFFFF;
+  }
+  
+  .navigation .active-link {
+    background-color: #FFFFFF;
+    color: #0099CC;
+    font-weight: bold;
+  }
+
+  .stickyNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }

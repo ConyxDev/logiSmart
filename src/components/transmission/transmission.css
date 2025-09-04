@@ -1,0 +1,109 @@
+.transmissions-container {
+    display: flex;
+    gap: 20px;
+    background: #f9f9f9;
+    margin-top: 20px;
+
+
+    border-radius: 8px;
+}
+
+.transmissions-form {
+    width: 40%;
+}
+
+.transmissions-list {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #0099cc;
+    border-radius: 8px;
+    background: #ffffff;
+    overflow-y: auto; /* Permet le défilement si nécessaire */
+}
+
+.transmissions-list h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #006699;
+    text-align: center;
+    font-family: 'lato';
+}
+
+.transmission-item {
+
+    border: 1px solid #006699;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #f9f9f9;
+    white-space: normal; /* Autorise le retour à la ligne */
+    word-wrap: break-word; /* Coupe les mots trop longs */
+    overflow-wrap: break-word; /* Prend en charge les navigateurs modernes */
+}
+
+.transmission-item p {
+    margin: 5px 0;
+    color: #333333;
+    font-family: 'lato';
+}
+
+.transmissions-form button {
+    background-color: #006699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'lato';
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.transmissions-form button:hover {
+    background-color: #004466;
+}
+
+
+.delete-confirmation-modal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.delete-confirmation-modal button {
+    background-color: #006699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'lato';
+    font-size: 1em;
+    transition: 0.3s;
+    justify-content: center;
+}
+
+.transmission-item button {
+    background-color: #006699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'lato';
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.delete-confirmation-content{
+    margin-bottom: 20px;
+    max-width: 530px;
+    height: 150px;
+}
+
+.delete-confirmation-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

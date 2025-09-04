@@ -1,0 +1,147 @@
+.generalContainer {
+    width: 50%;
+    position: relative;
+}
+.patient-info-section.sticky-section {
+    position: sticky;
+    top: 50px; /* La distance par rapport au haut de l'écran */
+    z-index: 10; /* Pour éviter d'être masqué par d'autres éléments */
+    background: white; /* Assure une bonne lisibilité */
+    padding: 10px;
+    border: 2px solid #0099cc;
+  }
+
+.patient-info-section.sticky-section ul{
+    margin: 0;
+}
+.add-patient-container {
+    font-family: 'lato';
+    margin-bottom: 10px;
+  }
+  .add-patient-container h1, h2,h3, p, label {
+    margin-bottom: 10px;
+    font-family: 'lato';
+  }
+#general-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content: space-between;
+  }
+.generalInfoflexItem {
+    flex: 1;
+    margin: 20px 10px;
+
+}
+
+
+.patient-info-section {
+    border: solid, 1px #004466;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 10px;
+    height: fit-content;
+    width: 40%;
+  } 
+
+  .patient-info-section ul li {
+   line-height: 150%;
+   font-family: 'lato';
+   color: #333333;
+   list-style: none;
+  } 
+.checkboxContainer {
+    display: flex;
+    flex-direction: row; /* Alignement horizontal */
+    align-items: center; /* Alignement vertical */
+  }
+
+  .patient-info-section h2 {
+    text-align: center;
+  }
+  .add-patient-container section {
+    margin-top: 20px;
+  }
+  
+  .add-patient-container section h2 {
+    font-size: 20px;
+  
+  }
+  
+  .add-patient-container input,
+  textarea,
+  select {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  #situation h2 {
+    margin-top: 20px;
+  }
+
+
+  .generalContainer {
+    width: 50%;
+    position: relative;
+}
+
+.patient-info-section.sticky-section {
+    position: sticky;
+    top: 50px;
+    z-index: 10;
+    background: white;
+    padding: 10px;
+    border: 1px solid #0099cc;
+}
+
+.iaForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.iaForm button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #007bff;
+    color: white;
+    width: 170.04px;
+    align-self: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.iaForm button:hover {
+    background-color: #004466;
+}
+
+
+.csv-upload-section input{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #007bff;
+  color: white;
+  width: 170.04px;
+  align-self: center;
+}
+
+.csv-upload-section input:hover {
+  background-color: #004466;
+}
+.addedServices {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px; 
+}
