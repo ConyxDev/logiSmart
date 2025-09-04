@@ -22,4 +22,68 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables and secrets
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+
+# Firebase secrets
+firebase-debug.log*
+.firebase/
+.firebaserc.local
+service-account-key.json
+serviceAccountKey.json
+firebase-adminsdk-*.json
+
+# API Keys and credentials
+config/keys.js
+config/prod.js
+config/dev.js
+.secrets/
+secrets/
+credentials/
+*.pem
+*.p12
+*.key
+*.crt
+*.cer
+
+# Database exports and backups
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+*-export.json
+*-backup.json
+database-backup/
+db-exports/
+
+# Temporary and cache files
+.cache/
+.temp/
+.tmp/
+*.tmp
+*.swp
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+
+# Security sensitive files
+.htaccess
+.htpasswd
+wp-config.php
+config.php
+
+# Build artifacts that might contain secrets
+build/config/
+dist/config/
