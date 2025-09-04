@@ -1,0 +1,122 @@
+{
+  "patients": {
+    "1": {
+      "firstName": "test2",
+      "name": "test"
+    },
+    "patientID1": {
+      "appointments": {
+        "appointmentID1": {
+          "date": "2024-11-28",
+          "location": "123 Main Street, Geneva",
+          "notes": "Follow-up check-up"
+        }
+      },
+      "generalInformation": {
+        "accessSpecificity": "Ramp required",
+        "address": "123 Main Street, Geneva",
+        "dateOfBirth": "1980-05-12",
+        "doorCode": "1234",
+        "firstName": "John",
+        "floor": "3",
+        "gender": "Male",
+        "isActive": true,
+        "isArchived": false,
+        "lastName": "Doe",
+        "spokenLanguage": "French"
+      },
+      "insurance": {
+        "policyNumber": "SC123456789",
+        "provider": "SwissCare",
+        "type": "Basic"
+      }
+    },
+    "patientID2": {
+      "appointments": {
+        "appointmentID1": {
+          "date": "2024-11-29",
+          "location": "45 Elm Street, Geneva",
+          "notes": "Initial consultation"
+        }
+      },
+      "generalInformation": {
+        "accessSpecificity": "None",
+        "address": "45 Elm Street, Geneva",
+        "dateOfBirth": "1992-03-08",
+        "doorCode": "5678",
+        "firstName": "Jane",
+        "floor": "2",
+        "gender": "Female",
+        "isActive": true,
+        "isArchived": false,
+        "lastName": "Smith",
+        "spokenLanguage": "English"
+      },
+      "insurance": {
+        "policyNumber": "HE987654321",
+        "provider": "Helsana",
+        "type": "Supplementary"
+      }
+    },
+    "patientID3": {
+      "appointments": {
+        "appointmentID1": {
+          "date": "2024-12-01",
+          "location": "78 Oak Avenue, Geneva",
+          "notes": "Post-surgery follow-up"
+        }
+      },
+      "generalInformation": {
+        "accessSpecificity": "Elevator needed",
+        "address": "78 Oak Avenue, Geneva",
+        "dateOfBirth": "1975-09-17",
+        "doorCode": "1122",
+        "firstName": "Paul",
+        "floor": "4",
+        "gender": "Male",
+        "isActive": false,
+        "isArchived": true,
+        "lastName": "Taylor",
+        "spokenLanguage": "German"
+      },
+      "insurance": {
+        "policyNumber": "CSS1122334455",
+        "provider": "CSS",
+        "type": "Accident"
+      }
+    },
+    "patientID4": {
+      "appointments": {
+        "appointmentID1": {
+          "date": "2024-12-05",
+          "location": "12 Birch Lane, Geneva",
+          "notes": "Regular check-up"
+        }
+      },
+      "generalInformation": {
+        "accessSpecificity": "None",
+        "address": "12 Birch Lane, Geneva",
+        "dateOfBirth": "1985-07-24",
+        "doorCode": "3344",
+        "firstName": "Alice",
+        "floor": "1",
+        "gender": "Female",
+        "isActive": true,
+        "isArchived": false,
+        "lastName": "Brown",
+        "spokenLanguage": "Italian"
+      },
+      "insurance": {
+        "policyNumber": "SAN4455667788",
+        "provider": "Sanitas",
+        "type": "Basic"
+      }
+    }
+  },
+  "users": {
+    "cqJJepdzAETX6hCa9lahFKDEw8P2": {
+      "email": "chris9306@hotmail.fr",
+      "name": "Christophe"
+    }
+  }
+}
